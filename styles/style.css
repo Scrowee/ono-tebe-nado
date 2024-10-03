@@ -113,6 +113,7 @@
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -190,7 +191,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr auto;
   gap: 8px 25px;
   margin: 0 24px;
 }
@@ -230,7 +231,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  margin: 12px 50px 88px;
+  margin: 180px 50px 88px;
 }
 
 .footer__menu {
